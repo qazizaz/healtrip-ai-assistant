@@ -1,0 +1,21 @@
+# Local PostgreSQL for development: `npm run db:up` (needs Docker), then use the DATABASE_URL from .env.example.
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: healtrip
+      POSTGRES_PASSWORD: healtrip
+      POSTGRES_DB: healtrip
+    ports:
+      - "5432:5432"
+    volumes:
+      - healtrip-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U healtrip -d healtrip"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  healtrip-db:

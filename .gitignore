@@ -1,0 +1,39 @@
+# dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# runtime data (users, conversations, admin edits)
+backend/.data/
+.data/
+
+# secrets: never commit
+.env
+.env.*
+!.env.example
+client_secret*.json
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# logs and temp files
+*.log
+npm-debug.log*
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# local archives and personal folders
+*.zip
+Claude outputs/

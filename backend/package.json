@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "test": "node --import tsx --test --test-concurrency=1 test/*.test.ts",
+    "eval": "tsx eval/run.ts",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx src/storage/cli.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "google-auth-library": "^11.1.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.23.1",
+    "tsx": "^4.19.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.23.1",
+    "typescript": "^5.6.0"
+  }
+}

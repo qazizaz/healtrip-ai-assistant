@@ -1,0 +1,36 @@
+# One-click deploy on Render: New > Blueprint > select this repo.
+# Creates the web service and a PostgreSQL database, and wires DATABASE_URL between them.
+# Secrets are never stored in this file: `sync: false` means Render asks for the value in its dashboard.
+databases:
+  - name: healtrip-db
+    plan: free                       # free Render databases expire after 30 days; pick a paid plan for long-lived use
+    databaseName: healtrip
+    user: healtrip
+
+services:
+  - type: web
+    name: healtrip-ai-assistant
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start          # applies database migrations automatically on start
+    healthCheckPath: /api/health     # 503 if the database is unreachable
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: healtrip-db
+          property: connectionString # internal URL, private network (no TLS needed)
+      - key: SESSION_SECRET
+        generateValue: true          # random, created by Render, never in git
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: ADMIN_EMAILS
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false                  # your https://<app>.onrender.com URL

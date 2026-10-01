@@ -1,0 +1,661 @@
+[
+ {
+  "id": "chest_pain",
+  "label_en": "chest pain",
+  "label_ar": "ألم في الصدر",
+  "kw_en": [
+   "chest pain",
+   "chest pressure",
+   "chest tight",
+   "pain in my chest",
+   "heart pain"
+  ],
+  "kw_ar": [
+   "الم في الصدر",
+   "ضيق في الصدر",
+   "وجع في الصدر",
+   "ضغط في الصدر",
+   "الم الصدر",
+   "صدري"
+  ]
+ },
+ {
+  "id": "palpitations",
+  "label_en": "palpitations",
+  "label_ar": "خفقان",
+  "kw_en": [
+   "palpitation",
+   "heart racing",
+   "racing heart",
+   "fast heartbeat",
+   "heart pounding"
+  ],
+  "kw_ar": [
+   "خفقان",
+   "نبضات سريعه",
+   "قلبي يدق"
+  ]
+ },
+ {
+  "id": "shortness_of_breath",
+  "label_en": "shortness of breath",
+  "label_ar": "ضيق التنفس",
+  "kw_en": [
+   "short of breath",
+   "shortness of breath",
+   "breathless",
+   "difficulty breathing",
+   "trouble breathing"
+  ],
+  "kw_ar": [
+   "ضيق في التنفس",
+   "ضيق تنفس",
+   "صعوبه في التنفس",
+   "ضيق نفس",
+   "نفسي قصير"
+  ]
+ },
+ {
+  "id": "cough",
+  "label_en": "cough",
+  "label_ar": "سعال",
+  "kw_en": [
+   "cough"
+  ],
+  "kw_ar": [
+   "سعال",
+   "كحه"
+  ]
+ },
+ {
+  "id": "wheezing",
+  "label_en": "wheezing",
+  "label_ar": "صفير في الصدر",
+  "kw_en": [
+   "wheez"
+  ],
+  "kw_ar": [
+   "صفير"
+  ]
+ },
+ {
+  "id": "headache",
+  "label_en": "headache",
+  "label_ar": "صداع",
+  "kw_en": [
+   "headache",
+   "migraine",
+   "head hurts"
+  ],
+  "kw_ar": [
+   "صداع",
+   "الم في الراس",
+   "راسي يوجعني",
+   "شقيقه"
+  ]
+ },
+ {
+  "id": "dizziness",
+  "label_en": "dizziness",
+  "label_ar": "دوخة",
+  "kw_en": [
+   "dizz",
+   "lightheaded",
+   "vertigo"
+  ],
+  "kw_ar": [
+   "دوخه",
+   "دوار",
+   "دوخان"
+  ]
+ },
+ {
+  "id": "numbness_tingling",
+  "label_en": "numbness or tingling",
+  "label_ar": "تنميل أو خدر",
+  "kw_en": [
+   "numb",
+   "tingling",
+   "pins and needles"
+  ],
+  "kw_ar": [
+   "تنميل",
+   "خدر",
+   "تخدر"
+  ]
+ },
+ {
+  "id": "memory_confusion",
+  "label_en": "memory problems or confusion",
+  "label_ar": "نسيان أو تشوش",
+  "kw_en": [
+   "memory loss",
+   "forgetful",
+   "confusion",
+   "confused"
+  ],
+  "kw_ar": [
+   "نسيان",
+   "تشوش",
+   "ارتباك"
+  ]
+ },
+ {
+  "id": "vision_changes",
+  "label_en": "vision changes",
+  "label_ar": "تغيرات في الرؤية",
+  "kw_en": [
+   "blurred vision",
+   "blurry vision",
+   "vision loss",
+   "double vision"
+  ],
+  "kw_ar": [
+   "زغلله",
+   "تشوش الرؤيه",
+   "ازدواج الرؤيه"
+  ]
+ },
+ {
+  "id": "tremor",
+  "label_en": "tremor",
+  "label_ar": "رعشة",
+  "kw_en": [
+   "tremor",
+   "shaking hands",
+   "trembling"
+  ],
+  "kw_ar": [
+   "رعشه",
+   "ارتعاش"
+  ]
+ },
+ {
+  "id": "weakness",
+  "label_en": "limb or muscle weakness",
+  "label_ar": "ضعف في الأطراف",
+  "kw_en": [
+   "weakness in my",
+   "weak arm",
+   "weak leg",
+   "muscle weakness"
+  ],
+  "kw_ar": [
+   "ضعف في الذراع",
+   "ضعف في الساق",
+   "ضعف عضلي"
+  ]
+ },
+ {
+  "id": "abdominal_pain",
+  "label_en": "abdominal pain",
+  "label_ar": "ألم في البطن",
+  "kw_en": [
+   "stomach pain",
+   "abdominal pain",
+   "belly pain",
+   "stomach ache",
+   "stomachache",
+   "abdomen",
+   "cramps"
+  ],
+  "kw_ar": [
+   "الم في المعده",
+   "الم في البطن",
+   "مغص",
+   "وجع بطن",
+   "وجع معده",
+   "الم المعده",
+   "الم البطن",
+   "وجع في المعده",
+   "وجع في البطن"
+  ]
+ },
+ {
+  "id": "nausea",
+  "label_en": "nausea",
+  "label_ar": "غثيان",
+  "kw_en": [
+   "nausea",
+   "nauseous",
+   "feel sick"
+  ],
+  "kw_ar": [
+   "غثيان"
+  ]
+ },
+ {
+  "id": "vomiting",
+  "label_en": "vomiting",
+  "label_ar": "قيء",
+  "kw_en": [
+   "vomit",
+   "throwing up"
+  ],
+  "kw_ar": [
+   "قيء",
+   "استفراغ",
+   "ترجيع"
+  ]
+ },
+ {
+  "id": "diarrhea",
+  "label_en": "diarrhea",
+  "label_ar": "إسهال",
+  "kw_en": [
+   "diarrh"
+  ],
+  "kw_ar": [
+   "اسهال"
+  ]
+ },
+ {
+  "id": "constipation",
+  "label_en": "constipation",
+  "label_ar": "إمساك",
+  "kw_en": [
+   "constipat"
+  ],
+  "kw_ar": [
+   "امساك"
+  ]
+ },
+ {
+  "id": "heartburn",
+  "label_en": "heartburn or reflux",
+  "label_ar": "حموضة أو ارتجاع",
+  "kw_en": [
+   "heartburn",
+   "acid reflux",
+   "reflux"
+  ],
+  "kw_ar": [
+   "حموضه",
+   "ارتجاع",
+   "حرقه في المعده"
+  ]
+ },
+ {
+  "id": "bloating",
+  "label_en": "bloating",
+  "label_ar": "انتفاخ",
+  "kw_en": [
+   "bloating",
+   "bloated",
+   "gassy"
+  ],
+  "kw_ar": [
+   "انتفاخ",
+   "غازات"
+  ]
+ },
+ {
+  "id": "back_pain",
+  "label_en": "back pain",
+  "label_ar": "ألم في الظهر",
+  "kw_en": [
+   "back pain",
+   "lower back",
+   "my back hurts",
+   "backache"
+  ],
+  "kw_ar": [
+   "الم في الظهر",
+   "وجع ظهر",
+   "الم الظهر",
+   "وجع في الظهر",
+   "ظهري"
+  ]
+ },
+ {
+  "id": "knee_pain",
+  "label_en": "knee pain",
+  "label_ar": "ألم في الركبة",
+  "kw_en": [
+   "knee"
+  ],
+  "kw_ar": [
+   "ركبه",
+   "ركبتي"
+  ]
+ },
+ {
+  "id": "joint_pain",
+  "label_en": "joint pain",
+  "label_ar": "ألم في المفاصل",
+  "kw_en": [
+   "joint pain",
+   "joints hurt",
+   "arthritis",
+   "swollen joint"
+  ],
+  "kw_ar": [
+   "الم في المفاصل",
+   "مفاصل",
+   "مفصل"
+  ]
+ },
+ {
+  "id": "neck_pain",
+  "label_en": "neck pain",
+  "label_ar": "ألم في الرقبة",
+  "kw_en": [
+   "neck pain",
+   "stiff neck"
+  ],
+  "kw_ar": [
+   "الم في الرقبه",
+   "رقبتي",
+   "وجع رقبه"
+  ]
+ },
+ {
+  "id": "shoulder_pain",
+  "label_en": "shoulder pain",
+  "label_ar": "ألم في الكتف",
+  "kw_en": [
+   "shoulder"
+  ],
+  "kw_ar": [
+   "كتف"
+  ]
+ },
+ {
+  "id": "muscle_pain",
+  "label_en": "muscle pain",
+  "label_ar": "ألم عضلي",
+  "kw_en": [
+   "muscle pain",
+   "muscle ache",
+   "sore muscles"
+  ],
+  "kw_ar": [
+   "الم عضلي",
+   "الم في العضلات",
+   "عضلات"
+  ]
+ },
+ {
+  "id": "injury_fracture",
+  "label_en": "injury or fracture",
+  "label_ar": "إصابة أو كسر",
+  "kw_en": [
+   "fracture",
+   "broken bone",
+   "sprain",
+   "twisted",
+   "injury",
+   "fell and"
+  ],
+  "kw_ar": [
+   "كسر",
+   "التواء",
+   "اصابه",
+   "وقعت"
+  ]
+ },
+ {
+  "id": "leg_swelling",
+  "label_en": "leg or ankle swelling",
+  "label_ar": "تورم في الساق أو القدم",
+  "kw_en": [
+   "swollen leg",
+   "swollen ankle",
+   "leg swelling",
+   "swelling in my legs",
+   "swollen feet"
+  ],
+  "kw_ar": [
+   "تورم في الساق",
+   "تورم القدم",
+   "تورم الساقين",
+   "انتفاخ القدم"
+  ]
+ },
+ {
+  "id": "fever",
+  "label_en": "fever",
+  "label_ar": "حرارة",
+  "kw_en": [
+   "fever",
+   "high temperature"
+  ],
+  "kw_ar": [
+   "حراره",
+   "حمي",
+   "سخونه"
+  ]
+ },
+ {
+  "id": "fatigue",
+  "label_en": "fatigue",
+  "label_ar": "تعب وإرهاق",
+  "kw_en": [
+   "fatigue",
+   "tired all the time",
+   "exhausted",
+   "no energy"
+  ],
+  "kw_ar": [
+   "تعب",
+   "ارهاق",
+   "اجهاد",
+   "خمول"
+  ]
+ },
+ {
+  "id": "weight_loss",
+  "label_en": "unexplained weight loss",
+  "label_ar": "نزول الوزن",
+  "kw_en": [
+   "weight loss",
+   "losing weight"
+  ],
+  "kw_ar": [
+   "نزول وزن",
+   "فقدان الوزن",
+   "نقص الوزن"
+  ]
+ },
+ {
+  "id": "rash",
+  "label_en": "skin rash",
+  "label_ar": "طفح جلدي",
+  "kw_en": [
+   "rash",
+   "hives"
+  ],
+  "kw_ar": [
+   "طفح",
+   "حبوب في الجلد",
+   "بقع جلديه"
+  ]
+ },
+ {
+  "id": "itching",
+  "label_en": "itching",
+  "label_ar": "حكة",
+  "kw_en": [
+   "itch"
+  ],
+  "kw_ar": [
+   "حكه",
+   "هرش",
+   "حكاك"
+  ]
+ },
+ {
+  "id": "acne",
+  "label_en": "acne",
+  "label_ar": "حب الشباب",
+  "kw_en": [
+   "acne",
+   "pimples"
+  ],
+  "kw_ar": [
+   "حب الشباب",
+   "حبوب الوجه"
+  ]
+ },
+ {
+  "id": "hair_loss",
+  "label_en": "hair loss",
+  "label_ar": "تساقط الشعر",
+  "kw_en": [
+   "hair loss",
+   "hair falling",
+   "losing hair"
+  ],
+  "kw_ar": [
+   "تساقط الشعر",
+   "سقوط الشعر"
+  ]
+ },
+ {
+  "id": "skin_lesion",
+  "label_en": "mole or skin lesion",
+  "label_ar": "خال أو آفة جلدية",
+  "kw_en": [
+   "mole",
+   "skin lesion",
+   "skin spot",
+   "wart"
+  ],
+  "kw_ar": [
+   "خال",
+   "ثولول",
+   "تغير في الجلد"
+  ]
+ },
+ {
+  "id": "sore_throat",
+  "label_en": "sore throat",
+  "label_ar": "التهاب الحلق",
+  "kw_en": [
+   "sore throat"
+  ],
+  "kw_ar": [
+   "التهاب الحلق",
+   "الم في الحلق",
+   "حلقي"
+  ]
+ },
+ {
+  "id": "runny_nose",
+  "label_en": "runny or blocked nose",
+  "label_ar": "زكام",
+  "kw_en": [
+   "runny nose",
+   "stuffy nose",
+   "congestion",
+   "sneez"
+  ],
+  "kw_ar": [
+   "زكام",
+   "سيلان الانف",
+   "عطاس",
+   "انسداد الانف"
+  ]
+ },
+ {
+  "id": "frequent_urination",
+  "label_en": "frequent urination",
+  "label_ar": "كثرة التبول",
+  "kw_en": [
+   "frequent urination",
+   "urinating a lot",
+   "pee a lot"
+  ],
+  "kw_ar": [
+   "كثره التبول",
+   "تبول كثير"
+  ]
+ },
+ {
+  "id": "excessive_thirst",
+  "label_en": "excessive thirst",
+  "label_ar": "عطش شديد",
+  "kw_en": [
+   "excessive thirst",
+   "very thirsty"
+  ],
+  "kw_ar": [
+   "عطش شديد",
+   "كثره العطش"
+  ]
+ },
+ {
+  "id": "high_blood_pressure",
+  "label_en": "high blood pressure",
+  "label_ar": "ارتفاع ضغط الدم",
+  "kw_en": [
+   "high blood pressure",
+   "hypertension"
+  ],
+  "kw_ar": [
+   "ضغط الدم",
+   "ارتفاع الضغط",
+   "ضغط مرتفع"
+  ]
+ },
+ {
+  "id": "anxiety_stress",
+  "label_en": "anxiety or stress",
+  "label_ar": "قلق وتوتر",
+  "kw_en": [
+   "anxiety",
+   "anxious",
+   "stress",
+   "panic"
+  ],
+  "kw_ar": [
+   "قلق",
+   "توتر",
+   "هلع"
+  ]
+ },
+ {
+  "id": "sleep_problems",
+  "label_en": "sleep problems",
+  "label_ar": "مشاكل النوم",
+  "kw_en": [
+   "insomnia",
+   "cannot sleep",
+   "can't sleep",
+   "trouble sleeping"
+  ],
+  "kw_ar": [
+   "ارق",
+   "لا استطيع النوم",
+   "مشاكل النوم"
+  ]
+ },
+ {
+  "id": "ear_pain",
+  "label_en": "ear pain",
+  "label_ar": "ألم في الأذن",
+  "kw_en": [
+   "ear pain",
+   "earache"
+  ],
+  "kw_ar": [
+   "الم في الاذن",
+   "وجع اذن"
+  ]
+ },
+ {
+  "id": "eye_redness",
+  "label_en": "red or painful eye",
+  "label_ar": "احمرار أو ألم في العين",
+  "kw_en": [
+   "red eye",
+   "eye redness",
+   "eye pain"
+  ],
+  "kw_ar": [
+   "احمرار العين",
+   "الم في العين",
+   "وجع عين"
+  ]
+ }
+]

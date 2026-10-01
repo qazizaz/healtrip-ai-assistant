@@ -1,0 +1,32 @@
+{
+  "name": "healtrip-ai-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HealTrip+ AI Patient Decision Assistant: bilingual triage chat with a tool-calling agent",
+  "author": "Qazi Izaz Ahmad",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev -w backend",
+    "dev:frontend": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "start": "npm run start -w backend",
+    "test": "npm run test -w backend",
+    "eval": "npm run eval -w backend",
+    "db:up": "docker compose up -d db",
+    "db:down": "docker compose down",
+    "db:migrate": "npm run db:migrate -w backend",
+    "demo": "npm run build && npm start",
+    "typecheck": "npm run typecheck -w backend && npm run typecheck -w frontend",
+    "setup:env": "node scripts/setup-env.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "hooks": "git config core.hooksPath .githooks && echo 'pre-commit secret scan enabled'",
+    "train": "python3 ml/train.py"
+  }
+}

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "prov_001",
+    "type": "doctor",
+    "name_en": "Dr. Layla Al-Harbi",
+    "name_ar": "د. ليلى الحربي",
+    "specialty": "cardiology",
+    "city": "Riyadh",
+    "hospital_en": "Nakheel Medical Center",
+    "hospital_ar": "مركز النخيل الطبي",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Tawuniya"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.9,
+    "phone": "+966 11 555 0101"
+  },
+  {
+    "id": "prov_002",
+    "type": "doctor",
+    "name_en": "Dr. Omar Haddad",
+    "name_ar": "د. عمر حداد",
+    "specialty": "cardiology",
+    "city": "Riyadh",
+    "hospital_en": "Al Waha Hospital",
+    "hospital_ar": "مستشفى الواحة",
+    "languages": [
+      "ar",
+      "en",
+      "fr"
+    ],
+    "accepts_insurance": [
+      "Tawuniya",
+      "MedGulf"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": false,
+    "rating": 4.7,
+    "phone": "+966 11 555 0102"
+  },
+  {
+    "id": "prov_003",
+    "type": "doctor",
+    "name_en": "Dr. Sara Nasser",
+    "name_ar": "د. سارة ناصر",
+    "specialty": "cardiology",
+    "city": "Jeddah",
+    "hospital_en": "Red Sea Heart Institute",
+    "hospital_ar": "معهد البحر الأحمر للقلب",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Allianz"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.8,
+    "phone": "+966 12 555 0103"
+  },
+  {
+    "id": "prov_004",
+    "type": "doctor",
+    "name_en": "Dr. Khalid Mansour",
+    "name_ar": "د. خالد منصور",
+    "specialty": "cardiology",
+    "city": "Dubai",
+    "hospital_en": "Marina Specialty Hospital",
+    "hospital_ar": "مستشفى المارينا التخصصي",
+    "languages": [
+      "ar",
+      "en",
+      "ur"
+    ],
+    "accepts_insurance": [
+      "Allianz",
+      "Daman"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.6,
+    "phone": "+971 4 555 0104"
+  },
+  {
+    "id": "prov_005",
+    "type": "hospital",
+    "name_en": "Nakheel Medical Center - Emergency",
+    "name_ar": "مركز النخيل الطبي - الطوارئ",
+    "specialty": "emergency_medicine",
+    "city": "Riyadh",
+    "hospital_en": "Nakheel Medical Center",
+    "hospital_ar": "مركز النخيل الطبي",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Tawuniya",
+      "MedGulf"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": false,
+    "rating": 4.5,
+    "phone": "+966 11 555 0201"
+  },
+  {
+    "id": "prov_006",
+    "type": "hospital",
+    "name_en": "Red Sea Heart Institute - Emergency",
+    "name_ar": "معهد البحر الأحمر للقلب - الطوارئ",
+    "specialty": "emergency_medicine",
+    "city": "Jeddah",
+    "hospital_en": "Red Sea Heart Institute",
+    "hospital_ar": "معهد البحر الأحمر للقلب",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Allianz"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": false,
+    "rating": 4.6,
+    "phone": "+966 12 555 0202"
+  },
+  {
+    "id": "prov_007",
+    "type": "hospital",
+    "name_en": "Marina Specialty Hospital - Emergency",
+    "name_ar": "مستشفى المارينا التخصصي - الطوارئ",
+    "specialty": "emergency_medicine",
+    "city": "Dubai",
+    "hospital_en": "Marina Specialty Hospital",
+    "hospital_ar": "مستشفى المارينا التخصصي",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Allianz",
+      "Daman"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": false,
+    "rating": 4.4,
+    "phone": "+971 4 555 0203"
+  },
+  {
+    "id": "prov_008",
+    "type": "doctor",
+    "name_en": "Dr. Huda Farouk",
+    "name_ar": "د. هدى فاروق",
+    "specialty": "general_practice",
+    "city": "Riyadh",
+    "hospital_en": "Nakheel Medical Center",
+    "hospital_ar": "مركز النخيل الطبي",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Tawuniya",
+      "MedGulf"
+    ],
+    "er_available": false,
+    "accepting_second_opinions": false,
+    "rating": 4.6,
+    "phone": "+966 11 555 0301"
+  },
+  {
+    "id": "prov_009",
+    "type": "doctor",
+    "name_en": "Dr. Yusuf Karim",
+    "name_ar": "د. يوسف كريم",
+    "specialty": "orthopedics",
+    "city": "Riyadh",
+    "hospital_en": "Al Waha Hospital",
+    "hospital_ar": "مستشفى الواحة",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Tawuniya",
+      "MedGulf"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.8,
+    "phone": "+966 11 555 0401"
+  },
+  {
+    "id": "prov_010",
+    "type": "doctor",
+    "name_en": "Dr. Reem Saleh",
+    "name_ar": "د. ريم صالح",
+    "specialty": "orthopedics",
+    "city": "Jeddah",
+    "hospital_en": "Red Sea Heart Institute",
+    "hospital_ar": "معهد البحر الأحمر للقلب",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa"
+    ],
+    "er_available": false,
+    "accepting_second_opinions": true,
+    "rating": 4.5,
+    "phone": "+966 12 555 0402"
+  },
+  {
+    "id": "prov_011",
+    "type": "doctor",
+    "name_en": "Dr. Tariq Aziz",
+    "name_ar": "د. طارق عزيز",
+    "specialty": "neurology",
+    "city": "Riyadh",
+    "hospital_en": "Nakheel Medical Center",
+    "hospital_ar": "مركز النخيل الطبي",
+    "languages": [
+      "ar",
+      "en",
+      "ur"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Tawuniya"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.7,
+    "phone": "+966 11 555 0501"
+  },
+  {
+    "id": "prov_012",
+    "type": "doctor",
+    "name_en": "Dr. Mona Idris",
+    "name_ar": "د. منى إدريس",
+    "specialty": "pulmonology",
+    "city": "Jeddah",
+    "hospital_en": "Red Sea Heart Institute",
+    "hospital_ar": "معهد البحر الأحمر للقلب",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa",
+      "Allianz"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.6,
+    "phone": "+966 12 555 0601"
+  },
+  {
+    "id": "prov_013",
+    "type": "doctor",
+    "name_en": "Dr. Faisal Rahman",
+    "name_ar": "د. فيصل رحمن",
+    "specialty": "gastroenterology",
+    "city": "Dubai",
+    "hospital_en": "Marina Specialty Hospital",
+    "hospital_ar": "مستشفى المارينا التخصصي",
+    "languages": [
+      "ar",
+      "en",
+      "hi"
+    ],
+    "accepts_insurance": [
+      "Daman",
+      "Allianz"
+    ],
+    "er_available": true,
+    "accepting_second_opinions": true,
+    "rating": 4.5,
+    "phone": "+971 4 555 0701"
+  },
+  {
+    "id": "prov_014",
+    "type": "doctor",
+    "name_en": "Dr. Nour Al-Sayed",
+    "name_ar": "د. نور السيد",
+    "specialty": "internal_medicine",
+    "city": "Riyadh",
+    "hospital_en": "Al Waha Hospital",
+    "hospital_ar": "مستشفى الواحة",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Tawuniya",
+      "MedGulf",
+      "Bupa"
+    ],
+    "er_available": false,
+    "accepting_second_opinions": true,
+    "rating": 4.7,
+    "phone": "+966 11 555 0801"
+  },
+  {
+    "id": "prov_015",
+    "type": "doctor",
+    "name_en": "Dr. Amal Youssef",
+    "name_ar": "د. أمل يوسف",
+    "specialty": "dermatology",
+    "city": "Jeddah",
+    "hospital_en": "Red Sea Heart Institute",
+    "hospital_ar": "معهد البحر الأحمر للقلب",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "accepts_insurance": [
+      "Bupa"
+    ],
+    "er_available": false,
+    "accepting_second_opinions": false,
+    "rating": 4.4,
+    "phone": "+966 12 555 0901"
+  }
+]

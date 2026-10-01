@@ -1,0 +1,3 @@
+#!/bin/sh
+# Blocks commits that contain credentials. Enable once with: npm run hooks
+node scripts/check-secrets.mjs || { echo "Commit blocked: remove the secret and rotate it."; exit 1; }

@@ -1,0 +1,100 @@
+{
+ "priors": {
+  "cardiology": 0.14,
+  "pulmonology": 0.1,
+  "neurology": 0.11,
+  "gastroenterology": 0.12,
+  "orthopedics": 0.14,
+  "dermatology": 0.1,
+  "internal_medicine": 0.14,
+  "general_practice": 0.15
+ },
+ "profiles": {
+  "cardiology": {
+   "chest_pain": 0.55,
+   "palpitations": 0.5,
+   "shortness_of_breath": 0.25,
+   "dizziness": 0.2,
+   "high_blood_pressure": 0.5,
+   "leg_swelling": 0.3,
+   "fatigue": 0.15
+  },
+  "pulmonology": {
+   "shortness_of_breath": 0.55,
+   "cough": 0.6,
+   "wheezing": 0.6,
+   "chest_pain": 0.12,
+   "fever": 0.1,
+   "fatigue": 0.08
+  },
+  "neurology": {
+   "headache": 0.6,
+   "dizziness": 0.4,
+   "numbness_tingling": 0.5,
+   "memory_confusion": 0.5,
+   "vision_changes": 0.25,
+   "tremor": 0.5,
+   "weakness": 0.4,
+   "sleep_problems": 0.1,
+   "neck_pain": 0.1
+  },
+  "gastroenterology": {
+   "abdominal_pain": 0.6,
+   "nausea": 0.4,
+   "vomiting": 0.35,
+   "diarrhea": 0.45,
+   "constipation": 0.4,
+   "heartburn": 0.6,
+   "bloating": 0.5,
+   "weight_loss": 0.15,
+   "chest_pain": 0.08
+  },
+  "orthopedics": {
+   "back_pain": 0.6,
+   "knee_pain": 0.7,
+   "joint_pain": 0.55,
+   "neck_pain": 0.4,
+   "shoulder_pain": 0.6,
+   "muscle_pain": 0.3,
+   "injury_fracture": 0.6,
+   "weakness": 0.08,
+   "leg_swelling": 0.1
+  },
+  "dermatology": {
+   "rash": 0.6,
+   "itching": 0.5,
+   "acne": 0.5,
+   "hair_loss": 0.4,
+   "skin_lesion": 0.5
+  },
+  "internal_medicine": {
+   "fever": 0.5,
+   "fatigue": 0.5,
+   "weight_loss": 0.35,
+   "frequent_urination": 0.45,
+   "excessive_thirst": 0.45,
+   "high_blood_pressure": 0.3,
+   "leg_swelling": 0.2,
+   "nausea": 0.1,
+   "abdominal_pain": 0.1,
+   "cough": 0.1,
+   "headache": 0.05
+  },
+  "general_practice": {
+   "sore_throat": 0.5,
+   "runny_nose": 0.5,
+   "cough": 0.2,
+   "fever": 0.25,
+   "headache": 0.2,
+   "ear_pain": 0.5,
+   "eye_redness": 0.4,
+   "anxiety_stress": 0.4,
+   "sleep_problems": 0.3,
+   "fatigue": 0.2,
+   "abdominal_pain": 0.05,
+   "rash": 0.05
+  }
+ },
+ "noise": 0.02,
+ "note": "Synthetic generative model written by the developer for the prototype. NOT clinical data. Replace with real, consented, clinician-labelled data before any real use."
+}
